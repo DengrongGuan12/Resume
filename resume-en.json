@@ -1,0 +1,207 @@
+{
+ "data_lang": "en-US",
+  "ga_id": "UA-63818301-2",
+  "resume_title": "DengrongGuan - Resume",
+  "name": "DengrongGuan",
+  "repo": "https://github.com/DengrongGuan12/Resume.git",
+  "job_description": ["Backend","Android Developer"],
+  "contact": {
+    "phone": "15950570277",
+    "email": "15950570277@163.com",
+    "wechat": {
+      "id": "victorandvector",
+      "qrcode": "static/wechat.png"
+    },
+    "github": {
+      "id": "dengrongguan12"
+    },
+    "blog": {
+      "url": "http://dengrongguan12.github.io/blog/"
+    }
+  },
+  "links": [{
+    "type": "repo",
+    "url": "https://github.com/DengrongGuan12/Resume"
+
+  }, {
+    "type": "pdf",
+    "url": "static/dengrongguan.pdf"
+
+  }],
+  "education": [
+    {
+    "type": "graduate",
+    "name": "Nanjing University",
+    "major": "Software Engineering",
+    "start": "2016",
+    "end": "Present",
+    "honor":[]
+    },
+    {
+    "type": "undergraduate",
+    "name": "Nanjing University",
+    "major": "Software Engineering",
+    "start": "2012",
+    "end": "2016",
+    "honor": [
+      "2013 - 2016 **National Encouragement scholarship**",
+      "2016        **Outstanding Graduates of NJU**",
+      "GPA         **4.438 (top 5%)**"
+    ]
+  }
+  ],
+  "language": [{
+    "type": "english",
+    "certificate": [{
+      "type": "CET-6",
+      "full": "750",
+      "score": "550"
+    }],
+    "description": []
+  }],
+  "experience": [ {
+    "type": "internship",
+    "techtype": "",
+    "place": "Nanjing Echome Internet Co., Ltd.",
+    "start": "2015-9",
+    "end": "present",
+    "name": "Backend/Android Develop",
+    "description": [
+      "Worked as a project leader",
+      "Course+ backend develop and division of labour",
+      "Involved in developing and maintain background and Android version of Kejian,Mebox1.0,Mebox2.0",
+      "Developed software of printer independently(`C#`)"
+    ],
+    "stack": ["php", "Android", "golang","C#"]
+  }, {
+    "type": "internship",
+    "techtype": "",
+    "place": "Nanjing Innovation Center of SAP",
+    "start": "2015-7",
+    "end": "2015-12",
+    "name": "Backend Develop",
+    "description": [
+      "Assisted in the backend development of Intelligent Transportation System(`Hana MMDB`)"
+    ],
+    "stack": ["sql", "javascript", "jenkins"]
+  }, {
+    "type": "internship",
+    "techtype": "",
+    "place": "Fujitsu",
+    "start": "2015-5",
+    "end": "2015-7",
+    "name": "Backend Develop",
+    "description": [
+      "Assisted in the development of museum system"
+    ],
+    "stack": ["JavaEE"]
+  },
+  {
+     "type": "internship",
+    "techtype": "",
+    "place": "Nanjing Lezhian IT Co., Ltd.",
+    "start": "2015-3",
+    "end": "2015-4",
+    "name": "Backend Develop",
+    "description": [
+      "Realized a word-line editor independently(`PHP`)"
+    ],
+    "stack": ["php"]
+  },
+  {
+    "type": "project",
+    "techtype": "",
+    "project_type": "team",
+    "name": "Course+",
+    "source": "https://github.com/DengrongGuan12/courseplus-back-end",
+    "description": [
+      "A live platform for postgraduate examination.",
+      "`Golang`,`beego`,`glide`,`MySQL` of RDS,`Tencent Cloud Live` service,storage service provided by `Qiniu Cloud` and payment service provided by `Ping++` were used.Front end separation.",
+      "Responsible for backend development(2 people)",
+      "Used own `Gitlab` as VCS"
+    ],
+    "stack": [""]
+  },
+  {
+    "type": "project",
+    "techtype": "",
+    "project_type": "team",
+    "name": "Mebox2.0",
+    "demo": "http://www.mebox.top",
+    "source": "https://github.com/DengrongGuan12/MeboxPrinter",
+    "description": [
+      "A university resource sharing platform.",
+      "`ThinkPHP` framework,`ES` search engine,`AliDayu` SMS service,third party login,`SVN` were used",
+      "`Volley` framework used on the Android network layer,`YouMeng` used for data statistics,Tencent `Bugly` used to collect crash information",
+      "Involved in backend and Android development",
+      "Developed software of printer independently(`C#`)"
+    ],
+    "stack": [""]
+  },
+
+
+  {
+    "type": "project",
+    "techtype": "",
+    "project_type": "graduation_project",
+    "name": "TongBao Freight Logistics Platform",
+    "source":"https://github.com/DengrongGuan12/tongbao",
+    "description": [
+      "Divided to driver,owner,operating terminal",
+      "`Spring MVC` + `Hibernate` framework were used",
+      "Responsible for operating terminal and backend development"
+    ],
+    "stack": ["iOS", "CocoaPods"]
+  }],
+  "skills": [{
+    "type": "backend",
+    "item": [{
+      "summary": "`Java`",
+      "description": [
+        "Proficient in `Java`",
+        "Proficient in `SpringMVC` and `Hibernate` framework",
+        "Used `Elastic Search` search engine",
+        "Understand object-oriented programming ideas"
+        ]
+    },
+    {
+      "summary": "`PHP`",
+      "description": [
+        "One year development experience",
+        "Used `ThinkPHP` and `CodeIgniter` framework"
+        ]
+    },
+    {
+      "summary": "`Linux`",
+      "description": [
+        "Frequent user of commonly used Linux commands",
+        "Have attack and guard awareness"
+        ]
+    },
+    {
+      "summary": "`Golang`",
+      "description": [
+        "Beginner level,self-taught and used for two month",
+        "Used `beego` to develop course+ backend"
+        ]
+    },
+    {
+      "summary": "`Other`",
+      "description": [
+        "Used `django` framework of `Python`",
+        "Used `html` + `js` + `css`",
+        "Proficient in `SQL`"
+        ]
+    }]
+  },
+    {
+      "type": "frontend",
+      "item": [{
+        "summary": "`Android`",
+        "description": [
+          "One year development experience",
+          "Proficient in using Android Studio to develop applications"
+        ]
+      }]
+  }]
+}

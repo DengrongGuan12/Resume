@@ -3,8 +3,8 @@ module.exports = {
         "internship": "（实习）"
     },
     skill_type: {
-        "frontend": "iOS开发",
-        "backend": "iOS开发",
+        "frontend": "Android开发",
+        "backend": "后台开发",
         "miscellaneous": "其他"
     },
     education_type: {
@@ -27,11 +27,11 @@ module.exports = {
             "en": "Language"
         },
         "experience": {
-            "ch": "项目与工作经验",
+            "ch": "实习与主要项目经历",
             "en": "Experience"
         },
         "skills": {
-            "ch": "技能",
+            "ch": "主要技能",
             "en": "Skills"
         }
     },
@@ -42,6 +42,7 @@ module.exports = {
     },
     project_type: {
         "personal": "个人项目",
-        "team": "创业项目"
+        "team": "创业项目",
+        "graduation_project":"毕设项目"
     }
 };
