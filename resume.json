@@ -70,7 +70,7 @@
         "算法提效工具开发",
         "数据分析及可视化工具开发"
       ],
-      "stack": ["java", "python","C++",""]
+      "stack": ["python","C++", "grafana", "tsdb", "blink", "odps"]
     },
     {
       "type": "internship",
@@ -78,12 +78,12 @@
       "place": "南京思目科技有限公司",
       "start": "2017-11",
       "end": "2018-6",
-      "name": "平台开发",
+      "name": "文件服务开发与维护",
       "description": [
-        "参与平台化的开发工作",
-        "对接算法业务"
+        "分布式文件管理系统开发",
+        "文件微服务开发"
       ],
-      "stack": ["java", "spring","RPC"]
+      "stack": ["java", "spring cloud","seaweedfs"]
     },
     {
     "type": "internship",
@@ -96,7 +96,7 @@
       "参与平台化的开发工作",
       "对接算法业务"
     ],
-    "stack": ["java", "spring","RPC"]
+    "stack": ["java", "spring boot","RPC", "class loader"]
   },{
     "type": "internship",
     "techtype": "",
@@ -163,35 +163,33 @@
       "summary": "`编程语言`",
       "description": [
         "熟悉`Java`，能熟练使用`Spring Boot`独立搭建开发企业级应用及服务",
-        "熟悉`Python`，能够用于开发数据可视化组件及简单服务",
-        "在项目中使用过 `Elastic Search` 搜索引擎",
+        "熟悉`Python`，能够用于开发数据可视化组件，使用过`django`及`tornado`开发简单网站",
+        "`C++`，入门级， 能够用于基本的开发",
+        "`GoLang`，入门级，自学并使用了两个月，使用过 `beego` 框架开发网站后台",
         "理解面向对象的编程思想，使用设计模式来提高代码的可复用性及可扩展性"
         ]
     },
     {
       "summary": "`数据分析`",
       "description": [
-        "一年开发经验，熟练使用 `PHP` 编写网站后台",
-        "使用过 `ThinkPHP` 及 `CodeIgniter` 框架"
+        "熟练使用blink作为实时数据处理分析的工具",
+        "熟练使用grafana进行数据的可视化及分析",
+        "熟练使用ODPS进行离线数据的处理分析"
         ]
     },
     {
-      "summary": "`无人驾驶`",
+      "summary": "`数据库`",
       "description": [
-        "熟练使用Linux，熟悉常用的Linux命令，有一定的攻击防范意识"
-        ]
-    },
-    {
-      "summary": "`Golang`",
-      "description": [
-        "入门级，自学并使用了两个月，已使用 `beego` 框架开发出course+后台"
+        "熟悉MySQL及TSDB时序数据库",
+        "熟练使用 `SQL` 分析处理数据"
         ]
     },
     {
       "summary": "`其他`",
       "description": [
-        "使用 `Python` 的 `django` 框架编写过小型网站应用，前端使用 `html` + `js` + `css`",
-        "熟练使用 `SQL` 语句"
+        "对无人驾驶系统架构有基本了解",
+        "熟练使用Linux，熟悉常用的Linux命令，有一定的攻击防范意识"
+
         ]
     }]
   },
@@ -203,6 +201,13 @@
           "一年开发经验，熟练编写并使用自定义组件",
           "熟练使用 `Android Studio` 开发应用"
         ]
-      }]
+      },
+      {
+        "summary": "网页开发",
+        "description": [
+          "能够使用`html`+`JS`+`CSS`开发基本的网页"
+        ]
+      }
+    ]
   }]
 }
