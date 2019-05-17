@@ -1,213 +1,262 @@
 {
- "data_lang": "zh-CN",
-  "ga_id": "UA-63818301-2",
-  "resume_title": "管登荣 - 个人简历",
-  "name": "管登荣",
-  "repo": "https://github.com/DengrongGuan12/Resume.git",
-  "job_description": ["开发工程师"],
-  "contact": {
-    "phone": "18668165741",
-    "email": "1031212913@qq.com",
-    "wechat": {
-      "id": "victorandvector",
-      "qrcode": "static/wechat.png"
-    },
-    "github": {
-      "id": "dengrongguan12"
-    }
-  },
-  "links": [{
-    "type": "repo",
-    "url": "https://github.com/DengrongGuan12/Resume"
-
-  }, {
-    "type": "pdf",
-    "url": "static/dengrongguan.pdf"
-
-  }],
-  "education": [
-    {
-    "type": "graduate",
-    "name": "南京大学",
-    "major": "软件工程",
-    "start": "2016",
-    "end": "2018",
-    "honor":[
-      "2018        **南京大学优秀硕士毕业生**"
-    ]
-    },
-    {
-    "type": "undergraduate",
-    "name": "南京大学",
-    "major": "软件工程",
-    "start": "2012",
-    "end": "2016",
-    "honor": [
-      "2013 - 2016 **国家励志奖学金**",
-      "2016        **南京大学优秀毕业生**",
-      "学分绩       **4.438 (top 5%)**"
-    ]
-  }
-  ],
-  "language": [{
-    "type": "english",
-    "certificate": [{
-      "type": "CET-6",
-      "full": "750",
-      "score": "550"
-    }],
-    "description": []
-  }],
-  "experience": [ 
-    {
-      "type": "regular",
-      "techtype": "",
-      "place": "菜鸟网络-ET实验室",
-      "start": "2018-7",
-      "end": "至今",
-      "name": "提效工具与数据分析",
-      "description": [
-        "算法提效工具开发",
-        "数据分析及可视化工具开发"
-      ],
-      "stack": ["python","C++", "grafana", "tsdb", "blink", "odps"]
-    },
-    {
-      "type": "internship",
-      "techtype": "",
-      "place": "南京思目科技有限公司",
-      "start": "2017-11",
-      "end": "2018-6",
-      "name": "文件服务开发与维护",
-      "description": [
-        "分布式文件管理系统开发",
-        "文件微服务开发"
-      ],
-      "stack": ["java", "spring cloud","seaweedfs"]
-    },
-    {
-    "type": "internship",
-    "techtype": "",
-    "place": "菜鸟网络-算法引擎",
-    "start": "2017-5",
-    "end": "2017-11",
-    "name": "平台开发",
-    "description": [
-      "参与平台化的开发工作",
-      "对接算法业务"
-    ],
-    "stack": ["java", "spring boot","RPC", "class loader"]
-  },{
-    "type": "internship",
-    "techtype": "",
-    "place": "南京一可米互联网科技有限公司(创业)",
-    "start": "2015-9",
-    "end": "2017-2",
-    "name": "后台及Android开发",
-    "description": [
-      "课间、米盒1.0、米盒2.0项目后台开发及分工",
-      "新版course+考研平台后台开发及分工",
-      "参与课间、米盒1.0、米盒2.0 `Android` 的开发与维护",
-      "独立开发米盒打印机PC端软件(`C#`)"
-    ],
-    "stack": ["php", "Android", "golang","C#"]
-  },
-  {
-    "type": "project",
-    "techtype": "",
-    "project_type": "team",
-    "name": "course+",
-    "source": "https://github.com/DengrongGuan12/courseplus-back-end",
-    "description": [
-      "考研专业直播平台(用户端，教师端，运营端)",
-      "前后端分离，使用`Golang`，`beego` 框架，`glide` 管理依赖库，阿里云RDS的 `MySQL` ，`腾讯云直播`服务，`七牛云`提供的文件存储服务，支付使用 `Ping++`",
-      "我在此项目中负责后台开发及分工(2人)",
-      "版本控制使用自己搭建的 `Gitlab` 服务器"
-    ],
-    "stack": [""]
-  },
-  {
-    "type": "project",
-    "techtype": "",
-    "project_type": "team",
-    "name": "米盒2.0",
-    "demo": "http://www.mebox.top",
-    "source": "https://github.com/DengrongGuan12/MeboxPrinter",
-    "description": [
-      "大学生资料分享平台(网页，iOS，Android，PC端)",
-      "前后端分离，采用 `ThinkPHP` 框架，`ES` 搜索引擎，接入`阿里大于`短信服务，第三方登录",
-      "Android端网络层采用 `volley` 框架，使用`友盟`进行数据统计，腾讯`Bugly`收集崩溃信息",
-      "我在此项目中负责后台开发及`Android`的部分开发，后台代码使用`SVN`作为版本控制工具",
-      "独立开发打印机端软件，实现云打印功能"
-    ],
-    "stack": [""]
-  },
-
-
-  {
-    "type": "project",
-    "techtype": "",
-    "project_type": "graduation_project",
-    "name": "通宝货运物流平台",
-    "source":"https://github.com/DengrongGuan12/tongbao",
-    "description": [
-      "货运物流平台，司机版(Android和iOS)，货主版(Android和iOS)，运营端(web)",
-      "后台采用 `Spring MVC` + `Hibernate` 框架",
-      "在项目中负责运营端(`html`+`css`+`js`)及后台开发以及任务的分配"
-    ],
-    "stack": ["iOS", "CocoaPods"]
-  }],
-  "skills": [{
-    "type": "backend",
-    "item": [{
-      "summary": "`编程语言`",
-      "description": [
-        "熟悉`Java`，能熟练使用`Spring Boot`独立搭建开发企业级应用及服务",
-        "熟悉`Python`，能够用于开发数据可视化组件，使用过`django`及`tornado`开发简单网站",
-        "`C++`，入门级， 能够用于基本的开发",
-        "`GoLang`，入门级，自学并使用了两个月，使用过 `beego` 框架开发网站后台",
-        "理解面向对象的编程思想，使用设计模式来提高代码的可复用性及可扩展性"
-        ]
-    },
-    {
-      "summary": "`数据分析`",
-      "description": [
-        "熟练使用blink作为实时数据处理分析的工具",
-        "熟练使用grafana进行数据的可视化及分析",
-        "熟练使用ODPS进行离线数据的处理分析"
-        ]
-    },
-    {
-      "summary": "`数据库`",
-      "description": [
-        "熟悉MySQL及TSDB时序数据库",
-        "熟练使用 `SQL` 分析处理数据"
-        ]
-    },
-    {
-      "summary": "`其他`",
-      "description": [
-        "对无人驾驶系统架构有基本了解",
-        "熟练使用Linux，熟悉常用的Linux命令，有一定的攻击防范意识"
-
-        ]
-    }]
-  },
-    {
-      "type": "frontend",
-      "item": [{
-        "summary": "`Android`",
-        "description": [
-          "一年开发经验，熟练编写并使用自定义组件",
-          "熟练使用 `Android Studio` 开发应用"
-        ]
-      },
-      {
-        "summary": "网页开发",
-        "description": [
-          "能够使用`html`+`JS`+`CSS`开发基本的网页"
-        ]
-      }
-    ]
-  }]
-}
+  "data_lang": "zh-CN",
+   "ga_id": "UA-63818301-2",
+   "resume_title": "管登荣 - 个人简历",
+   "name": "管登荣",
+   "repo": "https://github.com/DengrongGuan12/Resume.git",
+   "job_description": ["开发工程师"],
+   "contact": {
+     "phone": "18668165741",
+     "email": "1031212913@qq.com",
+     "wechat": {
+       "id": "victorandvector",
+       "qrcode": "static/head.jpeg"
+     },
+     "github": {
+       "id": "dengrongguan12"
+     }
+   },
+   "links": [{
+     "type": "repo",
+     "url": "https://github.com/DengrongGuan12/Resume"
+ 
+   }, {
+     "type": "pdf",
+     "url": "static/dengrongguan.pdf"
+ 
+   }],
+   "education": [
+     {
+     "type": "graduate",
+     "name": "南京大学",
+     "major": "软件工程",
+     "start": "2016",
+     "end": "2018",
+     "honor":[
+       "2018        **南京大学优秀硕士毕业生**"
+     ]
+     },
+     {
+     "type": "undergraduate",
+     "name": "南京大学",
+     "major": "软件工程",
+     "start": "2012",
+     "end": "2016",
+     "honor": [
+       "2013 - 2016 **国家励志奖学金**",
+       "2016        **南京大学优秀毕业生**",
+       "学分绩       **4.438 (top 5%)**"
+     ]
+   }
+   ],
+   "language": [{
+     "type": "english",
+     "certificate": [{
+       "type": "CET-6",
+       "full": "750",
+       "score": "550"
+     }],
+     "description": []
+   }],
+   "experience": [ 
+     {
+       "type": "internship",
+       "techtype": "",
+       "place": "菜鸟网络-ET实验室",
+       "start": "2018-7",
+       "end": "至今",
+       "name": "提效工具与数据分析",
+       "description": [
+         "算法提效工具开发",
+         "数据分析及可视化工具开发"
+       ],
+       "stack": ["python","C++", "grafana", "tsdb", "blink", "odps"]
+     },
+     {
+       "type": "internship",
+       "techtype": "",
+       "place": "南京思目科技有限公司",
+       "start": "2017-11",
+       "end": "2018-6",
+       "name": "文件服务开发与维护",
+       "description": [
+         "分布式文件管理系统开发",
+         "文件微服务开发"
+       ],
+       "stack": ["java", "spring cloud","seaweedfs"]
+     },
+     {
+     "type": "internship",
+     "techtype": "",
+     "place": "菜鸟网络-算法引擎",
+     "start": "2017-5",
+     "end": "2017-11",
+     "name": "平台开发",
+     "description": [
+       "参与平台化的开发工作",
+       "对接算法业务"
+     ],
+     "stack": ["java", "spring boot","RPC", "class loader"]
+   },{
+     "type": "internship",
+     "techtype": "",
+     "place": "南京一可米互联网科技有限公司(创业)",
+     "start": "2015-9",
+     "end": "2017-2",
+     "name": "后台及Android开发",
+     "description": [
+       "课间、米盒1.0、米盒2.0项目后台开发及分工",
+       "新版course+考研平台后台开发及分工",
+       "参与课间、米盒1.0、米盒2.0 `Android` 的开发与维护",
+       "独立开发米盒打印机PC端软件(`C#`)"
+     ],
+     "stack": ["php", "Android", "golang","C#"]
+   },
+   {
+     "type": "project",
+     "techtype": "",
+     "project_type": "team",
+     "name": "自动驾驶数据体系",
+     "description": [
+       "使用阿里云SLS日志服务近实时采集车辆关键日志",
+       "使用流计算引擎Blink近实时处理日志数据",
+       "使用TSDB时序数据库存储实时数据",
+       "使用开源数据可视化工具grafana对实时数据可视化",
+       "使用数据处理平台ODPS对日志数据进行离线分析"
+     ],
+     "stack": [""]
+   },
+   {
+     "type": "project",
+     "techtype": "",
+     "project_type": "team",
+     "name": "自动驾驶测试工具",
+     "description": [
+       "基于ROS rviz，部署自动驾驶算法可视化工具",
+       "基于ffmpeg开发屏幕录制工具，并使用`tornado`框架搭建简单http服务",
+       "基于Spring Boot搭建线上运维测试平台"
+     ],
+     "stack": [""]
+   },
+   {
+     "type": "project",
+     "techtype": "",
+     "project_type": "team",
+     "name": "超级账号文件微服务",
+     "description": [
+       "基于Spring Cloud，开发超级账号系统文件微服务",
+       "开发部署基于SeaweedFS的本地分布式文件管理系统"
+     ],
+     "stack": [""]
+   },
+   {
+     "type": "project",
+     "techtype": "",
+     "project_type": "team",
+     "name": "alphird",
+     "description": [
+       "算法引擎平台化项目",
+       "参考Spring Boot的classloader进行依赖隔离，彻底解决jar包冲突"
+     ],
+     "stack": [""]
+   },
+   {
+     "type": "project",
+     "techtype": "",
+     "project_type": "team",
+     "name": "course+",
+     "source": "https://github.com/DengrongGuan12/courseplus-back-end",
+     "description": [
+       "考研专业直播平台(用户端，教师端，运营端)",
+       "前后端分离，使用`Golang`，`beego` 框架，`glide` 管理依赖库，阿里云RDS的 `MySQL` ，`腾讯云直播`服务，`七牛云`提供的文件存储服务，支付使用 `Ping++`",
+       "我在此项目中负责后台开发及分工(2人)",
+       "版本控制使用自己搭建的 `Gitlab` 服务器"
+     ],
+     "stack": [""]
+   },
+   {
+     "type": "project",
+     "techtype": "",
+     "project_type": "team",
+     "name": "米盒2.0",
+     "demo": "http://www.mebox.top",
+     "source": "https://github.com/DengrongGuan12/MeboxPrinter",
+     "description": [
+       "大学生资料分享平台(网页，iOS，Android，PC端)",
+       "前后端分离，采用 `ThinkPHP` 框架，`ES` 搜索引擎，接入`阿里大于`短信服务，第三方登录",
+       "Android端网络层采用 `volley` 框架，使用`友盟`进行数据统计，腾讯`Bugly`收集崩溃信息",
+       "我在此项目中负责后台开发及`Android`的部分开发，后台代码使用`SVN`作为版本控制工具",
+       "独立开发打印机端软件，实现云打印功能"
+     ],
+     "stack": [""]
+   },
+ 
+ 
+   {
+     "type": "project",
+     "techtype": "",
+     "project_type": "graduation_project",
+     "name": "通宝货运物流平台",
+     "source":"https://github.com/DengrongGuan12/tongbao",
+     "description": [
+       "货运物流平台，司机版(Android和iOS)，货主版(Android和iOS)，运营端(web)",
+       "后台采用 `Spring MVC` + `Hibernate` 框架",
+       "在项目中负责运营端(`html`+`css`+`js`)及后台开发以及任务的分配"
+     ],
+     "stack": ["iOS", "CocoaPods"]
+   }],
+   "skills": [{
+     "type": "backend",
+     "item": [{
+       "summary": "`编程语言`",
+       "description": [
+         "熟悉`Java`，能熟练使用`Spring Boot`独立搭建开发企业级应用及服务",
+         "熟悉`Python`，能够用于开发数据可视化组件，使用过`django`及`tornado`开发简单网站",
+         "`C++`，入门级， 能够用于基本的开发",
+         "`GoLang`，入门级，使用过 `beego` 框架开发网站后台",
+         "理解面向对象的编程思想，使用设计模式来提高代码的可复用性及可扩展性"
+         ]
+     },
+     {
+       "summary": "`数据分析`",
+       "description": [
+         "熟练使用blink作为实时数据处理分析的工具",
+         "熟练使用grafana进行数据的可视化及分析",
+         "熟练使用ODPS进行离线数据的处理分析"
+         ]
+     },
+     {
+       "summary": "`数据库`",
+       "description": [
+         "熟悉MySQL及TSDB时序数据库",
+         "熟练使用 `SQL` 分析处理数据"
+         ]
+     },
+     {
+       "summary": "`其他`",
+       "description": [
+         "对自动驾驶系统架构有基本了解",
+         "熟悉自动驾驶依赖的ROS系统",
+         "熟练使用Linux，熟悉常用的Linux命令，有一定的攻击防范意识"
+         ]
+     }]
+   },
+     {
+       "type": "frontend",
+       "item": [{
+         "summary": "`Android`",
+         "description": [
+           "一年开发经验，熟练编写并使用自定义组件",
+           "熟练使用 `Android Studio` 开发应用"
+         ]
+       },
+       {
+         "summary": "网页开发",
+         "description": [
+           "能够使用`html`+`JS`+`CSS`开发基本的网页"
+         ]
+       }
+     ]
+   }]
+ }
+ 
