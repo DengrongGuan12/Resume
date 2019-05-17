@@ -10,7 +10,7 @@
     "email": "1031212913@qq.com",
     "wechat": {
       "id": "victorandvector",
-      "qrcode": "static/head.jpeg"
+      "qrcode": "static/wechat.png"
     },
     "github": {
       "id": "dengrongguan12"
@@ -116,54 +116,6 @@
     "type": "project",
     "techtype": "",
     "project_type": "team",
-    "name": "自动驾驶数据体系",
-    "description": [
-      "使用阿里云SLS日志服务近实时采集车辆关键日志",
-      "使用流计算引擎Blink近实时处理日志数据",
-      "使用TSDB时序数据库存储实时数据",
-      "使用开源数据可视化工具grafana对实时数据可视化",
-      "使用数据处理平台ODPS对日志数据进行离线分析"
-    ],
-    "stack": [""]
-  },
-  {
-    "type": "project",
-    "techtype": "",
-    "project_type": "team",
-    "name": "自动驾驶测试工具",
-    "description": [
-      "基于ROS rviz，部署自动驾驶算法可视化工具",
-      "基于ffmpeg开发屏幕录制工具，并使用`tornado`框架搭建简单http服务",
-      "基于Spring Boot搭建线上运维测试平台"
-    ],
-    "stack": [""]
-  },
-  {
-    "type": "project",
-    "techtype": "",
-    "project_type": "team",
-    "name": "超级账号文件微服务",
-    "description": [
-      "基于Spring Cloud，开发超级账号系统文件微服务",
-      "开发部署基于SeaweedFS的本地分布式文件管理系统"
-    ],
-    "stack": [""]
-  },
-  {
-    "type": "project",
-    "techtype": "",
-    "project_type": "team",
-    "name": "alphird",
-    "description": [
-      "算法引擎平台化项目",
-      "参考Spring Boot的classloader进行依赖隔离，彻底解决jar包冲突"
-    ],
-    "stack": [""]
-  },
-  {
-    "type": "project",
-    "techtype": "",
-    "project_type": "team",
     "name": "course+",
     "source": "https://github.com/DengrongGuan12/courseplus-back-end",
     "description": [
@@ -213,7 +165,7 @@
         "熟悉`Java`，能熟练使用`Spring Boot`独立搭建开发企业级应用及服务",
         "熟悉`Python`，能够用于开发数据可视化组件，使用过`django`及`tornado`开发简单网站",
         "`C++`，入门级， 能够用于基本的开发",
-        "`GoLang`，入门级，使用过 `beego` 框架开发网站后台",
+        "`GoLang`，入门级，自学并使用了两个月，使用过 `beego` 框架开发网站后台",
         "理解面向对象的编程思想，使用设计模式来提高代码的可复用性及可扩展性"
         ]
     },
@@ -235,9 +187,9 @@
     {
       "summary": "`其他`",
       "description": [
-        "对自动驾驶系统架构有基本了解",
-        "熟悉自动驾驶依赖的ROS系统",
+        "对无人驾驶系统架构有基本了解",
         "熟练使用Linux，熟悉常用的Linux命令，有一定的攻击防范意识"
+
         ]
     }]
   },
